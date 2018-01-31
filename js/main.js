@@ -38,7 +38,7 @@ var App = {
         if(ga != undefined) ga('send', 'event', 'publicPGPkey');
     },
         donate: function() {
-        this.echo("\nIf you're feeling generous: [[b;#44D544;]12TT6m7yQHA3Ax272vybYTL6dEdcANZxwv] \n ")
+        this.echo("\nIf you're feeling generous: [[b;#44D544;]1P58vx24ARDYvfK6QaXJ9soC34EKQrLxZs] \n ")
         if(ga != undefined) ga('send', 'event', 'tip');
     },
         su: function(user) {
@@ -110,12 +110,13 @@ jQuery(document).ready(function($) {
 		"Setting clock: "+Date.now()+".....................( OK )\n"+
 		"SYSTEM BOOT COMPLETE.............................( OK )\n\n\n"+
 		"~MOTD~\n"+
-		" ▄ .▄▄• ▄▌ ▐ ▄ ▄▄▄▄▄▄▄▄ .▄▄▄       ▄▄ • ▄▄▄  ▄▄▄ . ▄▄ •  ▄▄▄· ▄▄▌  \n"+
-		"██▪▐██▪██▌•█▌▐█•██  ▀▄.▀·▀▄ █·    ▐█ ▀ ▪▀▄ █·▀▄.▀·▐█ ▀ ▪▐█ ▀█ ██•  \n"+
-		"██▀▐██▌▐█▌▐█▐▐▌ ▐█.▪▐▀▀▪▄▐▀▀▄     ▄█ ▀█▄▐▀▀▄ ▐▀▀▪▄▄█ ▀█▄▄█▀▀█ ██▪  \n"+
-		"██▌▐▀▐█▄█▌██▐█▌ ▐█▌·▐█▄▄▌▐█•█▌    ▐█▄▪▐█▐█•█▌▐█▄▄▌▐█▄▪▐█▐█ ▪▐▌▐█▌▐▌\n"+
-		"▀▀▀ · ▀▀▀ ▀▀ █▪ ▀▀▀  ▀▀▀ .▀  ▀    ·▀▀▀▀ .▀  ▀ ▀▀▀ ·▀▀▀▀  ▀  ▀ .▀▀▀\n"+
-		"Welcome to Hunter Gregal's personal website!\n\n"+
+		" ____  __.__                         _____   _______                              \n"+
+		"|    |/ _|__| ____    ____     _____/ ____\  \      \ ___.__. ____   ____ ___  ___\n"+
+		"|      < |  |/    \  / ___\   /  _ \   __\   /   |   <   |  |/    \_/ __ \\  \/  /\n"+
+		"|    |  \|  |   |  \/ /_/  > (  <_> )  |    /    |    \___  |   |  \  ___/ >    < \n"+
+		"|____|__ \__|___|  /\___  /   \____/|__|    \____|__  / ____|___|  /\___  >__/\_ \\n"+
+		"        \/       \//_____/                          \/\/         \/     \/      \/\n"+
+		"Welcome to Thom Hastings' personal website!\n\n"+
 		"Quick Commands\n"+
 		"\techo          env          help\n"+
 		"\tid           ls           whoami]\n\n"+
