@@ -157,7 +157,7 @@ jQuery(document).ready(function($) {
 		"        \\/       \\//_____/                          \\/\\/         \\/     \\/      \\/\n"+
 		"Quick Commands\n"+
 		"\techo          env          help\n"+
-		"\tid           ls           whoami]\n\n"+
+		"\tid           ls           whoami]\n"+
 		"[[b;#44D544;]root]&#64;attackvector&#46;org:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://blog.attackvector.org\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]",
                 prompt: function(p){
             var path = '~'
