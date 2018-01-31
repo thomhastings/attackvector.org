@@ -67,7 +67,7 @@ var App = {
         if(ga != undefined) ga('send', 'event', 'shutdown');
     },
     env: function() {
-        this.echo("[[b;#44D544;]NAME=HunterGregal\nTITLE=SecurityResearcher;Student\nBLOG=http://blog.huntergregal.com\nGITHUB=https://github.com/huntergregal\nTWITTER=@huntergregal\n_=/usr/bin/env]");
+        this.echo("[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://blog.attackvector.org\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]");
         if(ga != undefined) ga('send', 'event', 'env');
     },
     cv: function() {
@@ -82,7 +82,7 @@ var App = {
     },
     github: function() {
         this.echo("Loading my github...");
-        setTimeout(function(){ document.location.href = 'https://github.com/huntergregal'; }, 1000);
+        setTimeout(function(){ document.location.href = 'https://github.com/thomhastings'; }, 1000);
         if(ga != undefined) ga('send', 'event', 'env');
     },
     publicPGPkey: function() {
