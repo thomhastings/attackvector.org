@@ -261,7 +261,7 @@ function showHelp(consoleObj)
         consoleObj.echo("\t[[b;#44D544;]help]              #This help message");
         consoleObj.echo("\t[[b;#44D544;]id]                #Id...");
         consoleObj.echo("\t[[b;#44D544;]ls]                #Ls...");
-        consoleObj.echo("\t[[b;#44D544;]manifesto          #The Hacker's Manifesto...");
+        consoleObj.echo("\t[[b;#44D544;]manifesto          #The Hacker's Manifesto");
         consoleObj.echo("\t[[b;#44D544;]oldsite]           #Visit my old website");
         consoleObj.echo("\t[[b;#44D544;]publicPGPkey]      #Display my public PGP key");
         consoleObj.echo("\t[[b;#44D544;]shutdown]          #Shutdown system");
