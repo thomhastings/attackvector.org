@@ -108,8 +108,7 @@ jQuery(document).ready(function($) {
 		"Mount devpts:....................................( OK )\n"+
 		"Configure kernel options.........................( OK )\n"+
 		"Setting clock: "+Date.now()+".....................( OK )\n"+
-		"SYSTEM BOOT COMPLETE.............................( OK )\n\n\n"+
-		"~MOTD~\n"+
+		"SYSTEM BOOT COMPLETE.............................( OK )\n"+
 		"░▒▒░░                                                                          \n"+
 		"░░▒▒▒▒                                                                         \n"+
 		"░░░▒▒▒▒░░░░                                                                    \n"+
@@ -156,11 +155,10 @@ jQuery(document).ready(function($) {
 		"|    |  \\|  |   |  \\/ /_/  > (  <_> )  |    /    |    \\___  |   |  \\  ___/ >    < \n"+
 		"|____|__ \\__|___|  /\\___  /   \\____/|__|    \\____|__  / ____|___|  /\\___  >__/\\_ \\\n"+
 		"        \\/       \\//_____/                          \\/\\/         \\/     \\/      \\/\n"+
-		"Welcome to Thom Hastings' personal website!\n\n"+
 		"Quick Commands\n"+
 		"\techo          env          help\n"+
 		"\tid           ls           whoami]\n\n"+
-		"[[b;#44D544;]root]&#64;huntergregal&#46;com:~# env\n[[b;#44D544;]NAME=HunterGregal\nTITLE=SecurityResearcher;Student\nBLOG=http://blog.huntergregal.com\nGITHUB=https://github.com/huntergregal\nTWITTER=@huntergregal\n_=/usr/bin/env]",
+		"[[b;#44D544;]root]&#64;thomhastings&#46;com:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://blog.attackvector.org\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]",
                 prompt: function(p){
             var path = '~'
             p(e + ":" + path + "# ");
