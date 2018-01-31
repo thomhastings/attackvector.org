@@ -1,4 +1,4 @@
-var e = "[[b;#44D544;]root]&#64;huntergregal&#46;com";
+var e = "[[b;#44D544;]root]&#64;attackvector&#46;org";
 var App = {
     echo: function(text) {
         this.echo(text);
@@ -31,7 +31,7 @@ var App = {
        blog: function() {
         if(ga != undefined) ga('send', 'event', 'blog');
         this.echo("Loading the blog... Wait a sec ...")
-        setTimeout(function(){ document.location.href = 'http://blog.huntergregal.com'; }, 1000);
+        setTimeout(function(){ document.location.href = 'http://blog.attackvector.org'; }, 1000);
     },
         publicPGPkey: function() {
         showPGP(this);
@@ -63,7 +63,7 @@ var App = {
     },
     shutdown: function() {
         this.error('SYSTEM HALT!');
-        setTimeout(function(){ document.location.href = 'http://huntergregal.com'; }, 2500);
+        setTimeout(function(){ document.location.href = 'http://attackvector.org'; }, 2500);
         if(ga != undefined) ga('send', 'event', 'shutdown');
     },
     env: function() {
