@@ -1,4 +1,4 @@
-thank you to huntergregal
+thank you to hunter gregal
 
 --------------
 ###### license
