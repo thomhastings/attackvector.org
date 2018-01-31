@@ -158,7 +158,7 @@ jQuery(document).ready(function($) {
 		"Quick Commands\n"+
 		"\techo          env          help\n"+
 		"\tid           ls           whoami]\n\n"+
-		"[[b;#44D544;]root]&#64;thomhastings&#46;com:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://blog.attackvector.org\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]",
+		"[[b;#44D544;]root]&#64;attackvector&#46;org:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://blog.attackvector.org\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]",
                 prompt: function(p){
             var path = '~'
             p(e + ":" + path + "# ");
