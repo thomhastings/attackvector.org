@@ -77,7 +77,7 @@ var App = {
     },
     oldsite: function() {
         this.echo("Loading my old site...");
-        setTimeout(function(){ document.location.href = 'http://huntergregal.com/oldsite'; }, 1000);
+        setTimeout(function(){ document.location.href = 'https://web.archive.org/web/20130225053353/http://www.attackvector.org:80/'; }, 1000);
         if(ga != undefined) ga('send', 'event', 'env');
     },
     github: function() {
