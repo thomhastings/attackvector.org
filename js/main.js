@@ -76,78 +76,78 @@ var App = {
         if(ga != undefined) ga('send', 'event', 'env');
     },
     manifesto: function(){
-        this.echo("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"+
-                "The following was written shortly after my arrest...\n"+
-                "\n"+
-                "                       \/\The Conscience of a Hacker/\/\n"+
-                "\n"+
-                "                                      by\n"+
-                "\n"+
-                "                               +++The Mentor+++\n"+
-                "\n"+
-                "                          Written on January 8, 1986\n"+
-                "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"+
-                "\n"+
-                "        Another one got caught today, it's all over the papers.  "Teenager\n"+
-                "Arrested in Computer Crime Scandal", "Hacker Arrested after Bank Tampering"...\n"+
-                "        Damn kids.  They're all alike.\n"+
-                "\n"+
-                "        But did you, in your three-piece psychology and 1950's technobrain,\n"+
-                "ever take a look behind the eyes of the hacker?  Did you ever wonder what\n"+
-                "made him tick, what forces shaped him, what may have molded him?\n"+
-                "        I am a hacker, enter my world...\n"+
-                "        Mine is a world that begins with school... I'm smarter than most of\n"+
-                "the other kids, this crap they teach us bores me...\n"+
-                "        Damn underachiever.  They're all alike.\n"+
-                "\n"+
-                "        I'm in junior high or high school.  I've listened to teachers explain\n"+
-                "for the fifteenth time how to reduce a fraction.  I understand it.  "No, Ms.\n"+
-                "Smith, I didn't show my work.  I did it in my head..."\n"+
-                "        Damn kid.  Probably copied it.  They're all alike.\n"+
-                "\n"+
-                "        I made a discovery today.  I found a computer.  Wait a second, this is\n"+
-                "cool.  It does what I want it to.  If it makes a mistake, it's because I\n"+
-                "screwed it up.  Not because it doesn't like me...\n"+
-                "                Or feels threatened by me...\n"+
-                "                Or thinks I'm a smart ass...\n"+
-                "                Or doesn't like teaching and shouldn't be here...\n"+
-                "        Damn kid.  All he does is play games.  They're all alike.\n"+
-                "\n"+
-                "        And then it happened... a door opened to a world... rushing through\n"+
-                "the phone line like heroin through an addict's veins, an electronic pulse is\n"+
-                "sent out, a refuge from the day-to-day incompetencies is sought... a board is\n"+
-                "found.\n"+
-                "        "This is it... this is where I belong..."\n"+
-                "        I know everyone here... even if I've never met them, never talked to\n"+
-                "them, may never hear from them again... I know you all...\n"+
-                "        Damn kid.  Tying up the phone line again.  They're all alike...\n"+
-                "\n"+
-                "        You bet your ass we're all alike... we've been spoon-fed baby food at\n"+
-                "school when we hungered for steak... the bits of meat that you did let slip\n"+
-                "through were pre-chewed and tasteless.  We've been dominated by sadists, or\n"+
-                "ignored by the apathetic.  The few that had something to teach found us will-\n"+
-                "ing pupils, but those few are like drops of water in the desert.\n"+
-                "\n"+
-                "        This is our world now... the world of the electron and the switch, the\n"+
-                "beauty of the baud.  We make use of a service already existing without paying\n"+
-                "for what could be dirt-cheap if it wasn't run by profiteering gluttons, and\n"+
-                "you call us criminals.  We explore... and you call us criminals.  We seek\n"+
-                "after knowledge... and you call us criminals.  We exist without skin color,\n"+
-                "without nationality, without religious bias... and you call us criminals.\n"+
-                "You build atomic bombs, you wage wars, you murder, cheat, and lie to us\n"+
-                "and try to make us believe it's for our own good, yet we're the criminals.\n"+
-                "\n"+
-                "        Yes, I am a criminal.  My crime is that of curiosity.  My crime is\n"+
-                "that of judging people by what they say and think, not what they look like.\n"+
-                "My crime is that of outsmarting you, something that you will never forgive me\n"+
-                "for.\n"+
-                "\n"+
-                "        I am a hacker, and this is my manifesto.  You may stop this individual,\n"+
-                "but you can't stop us all... after all, we're all alike.\n"+
-                "\n"+
-                "                               +++The Mentor+++\n"+
-                "_______________________________________________________________________________\n");
-        if(ga != undefined) ga('send', 'event', 'manifesto','env');
+            this.echo('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+            this.echo('The following was written shortly after my arrest...');
+            this.echo('');
+            this.echo('                       \/\The Conscience of a Hacker/\/');
+            this.echo('');
+            this.echo('                                      by');
+            this.echo('');
+            this.echo('                               +++The Mentor+++');
+            this.echo('');
+            this.echo('                          Written on January 8, 1986');
+            this.echo('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+            this.echo('');
+            this.echo('        Another one got caught today, it\'s all over the papers.  \"Teenager');
+            this.echo('Arrested in Computer Crime Scandal\", \"Hacker Arrested after Bank Tampering\"...');
+            this.echo('        Damn kids.  They\'re all alike.');
+            this.echo('');
+            this.echo('        But did you, in your three-piece psychology and 1950\'s technobrain,');
+            this.echo('ever take a look behind the eyes of the hacker?  Did you ever wonder what');
+            this.echo('made him tick, what forces shaped him, what may have molded him?');
+            this.echo('        I am a hacker, enter my world...');
+            this.echo('        Mine is a world that begins with school... I\'m smarter than most of');
+            this.echo('the other kids, this crap they teach us bores me...');
+            this.echo('        Damn underachiever.  They\'re all alike.');
+            this.echo('');
+            this.echo('        I\'m in junior high or high school.  I\'ve listened to teachers explain');
+            this.echo('for the fifteenth time how to reduce a fraction.  I understand it.  \"No, Ms.');
+            this.echo('Smith, I didn\'t show my work.  I did it in my head...\"');
+            this.echo('        Damn kid.  Probably copied it.  They\'re all alike.');
+            this.echo('');
+            this.echo('        I made a discovery today.  I found a computer.  Wait a second, this is');
+            this.echo('cool.  It does what I want it to.  If it makes a mistake, it\'s because I');
+            this.echo('screwed it up.  Not because it doesn\'t like me...');
+            this.echo('                Or feels threatened by me...');
+            this.echo('                Or thinks I\'m a smart ass...');
+            this.echo('                Or doesn\'t like teaching and shouldn\'t be here...');
+            this.echo('        Damn kid.  All he does is play games.  They\'re all alike.');
+            this.echo('');
+            this.echo('        And then it happened... a door opened to a world... rushing through');
+            this.echo('the phone line like heroin through an addict\'s veins, an electronic pulse is');
+            this.echo('sent out, a refuge from the day-to-day incompetencies is sought... a board is');
+            this.echo('found.');
+            this.echo('        \"This is it... this is where I belong...\"');
+            this.echo('        I know everyone here... even if I\'ve never met them, never talked to');
+            this.echo('them, may never hear from them again... I know you all...');
+            this.echo('        Damn kid.  Tying up the phone line again.  They\'re all alike...');
+            this.echo('');
+            this.echo('        You bet your ass we\'re all alike... we\'ve been spoon-fed baby food at');
+            this.echo('school when we hungered for steak... the bits of meat that you did let slip');
+            this.echo('through were pre-chewed and tasteless.  We\'ve been dominated by sadists, or');
+            this.echo('ignored by the apathetic.  The few that had something to teach found us will-');
+            this.echo('ing pupils, but those few are like drops of water in the desert.');
+            this.echo('');
+            this.echo('        This is our world now... the world of the electron and the switch, the');
+            this.echo('beauty of the baud.  We make use of a service already existing without paying');
+            this.echo('for what could be dirt-cheap if it wasn\'t run by profiteering gluttons, and');
+            this.echo('you call us criminals.  We explore... and you call us criminals.  We seek');
+            this.echo('after knowledge... and you call us criminals.  We exist without skin color,');
+            this.echo('without nationality, without religious bias... and you call us criminals.');
+            this.echo('You build atomic bombs, you wage wars, you murder, cheat, and lie to us');
+            this.echo('and try to make us believe it\'s for our own good, yet we\'re the criminals.');
+            this.echo('');
+            this.echo('        Yes, I am a criminal.  My crime is that of curiosity.  My crime is');
+            this.echo('that of judging people by what they say and think, not what they look like.');
+            this.echo('My crime is that of outsmarting you, something that you will never forgive me');
+            this.echo('for.');
+            this.echo('');
+            this.echo('        I am a hacker, and this is my manifesto.  You may stop this individual,');
+            this.echo('but you can\'t stop us all... after all, we\'re all alike.');
+            this.echo('');
+            this.echo('                               +++The Mentor+++');
+            this.echo('_______________________________________________________________________________');
+        if(ga != undefined) ga('send', 'event', 'manifesto', 'manifesto');
     },
     oldsite: function() {
         this.echo("Loading my old site...");
@@ -261,7 +261,7 @@ function showHelp(consoleObj)
         consoleObj.echo("\t[[b;#44D544;]help]              #This help message");
         consoleObj.echo("\t[[b;#44D544;]id]                #Id...");
         consoleObj.echo("\t[[b;#44D544;]ls]                #Ls...");
-        consoleObj.echo("\t[[b;#44ff44;]manifesto          #The Hacker's Manifesto...");
+        consoleObj.echo("\t[[b;#44D544;]manifesto          #The Hacker's Manifesto...");
         consoleObj.echo("\t[[b;#44D544;]oldsite]           #Visit my old website");
         consoleObj.echo("\t[[b;#44D544;]publicPGPkey]      #Display my public PGP key");
         consoleObj.echo("\t[[b;#44D544;]shutdown]          #Shutdown system");
