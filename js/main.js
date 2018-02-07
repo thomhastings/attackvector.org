@@ -14,10 +14,10 @@ var App = {
         ls: function() {
             this.echo('autoexec.cfg');
             this.echo('CLASSIFIED.tar.gz');
-            this.echo('hgregal_Private.pgp');
-            this.echo('huntergregal.pem');
+            this.echo('thomhastings_Private.pgp');
+            this.echo('thomhastings.pem');
             this.echo('HashCrackingReport.pdf');
-            this.echo('HunterGregalResume.pdf');
+            this.echo('ThomHastingsResume.pdf');
             this.echo('passwords.txt');
             this.echo('Python_Encryptor.py');
             this.echo('theSecretToLife.txt');
@@ -72,7 +72,7 @@ var App = {
     },
     cv: function() {
         this.echo("Loading my resume");
-        setTimeout(function(){ document.location.href = 'http://huntergregal.com/HunterGregalResume.pdf'; }, 1000);
+        setTimeout(function(){ document.location.href = 'http://attackvector.org/ThomHastingsResume.pdf'; }, 1000);
         if(ga != undefined) ga('send', 'event', 'env');
     },
     manifesto: function(){
