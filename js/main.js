@@ -21,6 +21,7 @@ var App = {
             this.echo('passwords.txt');
             this.echo('Python_Encryptor.py');
             this.echo('theSecretToLife.txt');
+            this.echo('lin012.gif')
         if(ga != undefined) ga('send', 'event', 'ls');
     },
     whoami: function() {
