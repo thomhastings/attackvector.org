@@ -162,7 +162,7 @@ var App = {
     },
     publicPGPkey: function() {
         this.echo("Loading PGP key...");
-        setTimeout(function(){ document.location.href = 'http://huntergregal.com/publicPGPkey.txt'; }, 1000);
+        setTimeout(function(){ document.location.href = 'https://pgp.mit.edu/pks/lookup?op=get&search=0x8CC93935F2B30A1B'; }, 1000);
         if(ga != undefined) ga('send', 'event', 'env');
     }
 }
