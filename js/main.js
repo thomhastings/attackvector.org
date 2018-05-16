@@ -217,6 +217,7 @@ jQuery(document).ready(function($) {
 function showHelp(consoleObj)
 {
         consoleObj.echo("Available commands:");
+	consoleObj.echo("\t[[b;#44D544;]attackvector]      #Vector attack");
         consoleObj.echo("\t[[b;#44D544;]blog]              #Visit my blog");
         consoleObj.echo("\t[[b;#44D544;]clear]             #Clear the console"); 
         consoleObj.echo("\t[[b;#44D544;]cv]                #Checkout my resume"); 
