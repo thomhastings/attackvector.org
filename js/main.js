@@ -34,7 +34,7 @@ var App = {
         this.echo("Loading the blog... Wait a sec ...")
         setTimeout(function(){ document.location.href = 'http://blog.attackvector.org'; }, 1000);
     },
-        publicPGPkey: function() {
+        publickey: function() {
         showPGP(this);
         if(ga != undefined) ga('send', 'event', 'publicPGPkey');
     },
@@ -163,6 +163,11 @@ var App = {
     publicPGPkey: function() {
         this.echo("Loading PGP key...");
         setTimeout(function(){ document.location.href = 'https://pgp.mit.edu/pks/lookup?op=get&search=0x5E803AEE6113B6A4'; }, 1000);
+        if(ga != undefined) ga('send', 'event', 'env');
+    },
+    attackvector: function() {
+        this.echo("Attacking all the vectors...");
+        setTimeout(function(){ document.location.href = 'https://threatbutt.com/map/'; }, 1000);
         if(ga != undefined) ga('send', 'event', 'env');
     }
 }
