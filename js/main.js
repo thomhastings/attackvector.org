@@ -32,7 +32,7 @@ var App = {
        blog: function() {
         if(ga != undefined) ga('send', 'event', 'blog');
         this.echo("Loading the blog... Wait a sec ...")
-        setTimeout(function(){ document.location.href = 'http://blog.attackvector.org'; }, 1000);
+        setTimeout(function(){ document.location.href = 'http://solo.fremen.guru/p/blog-page.html'; }, 1000);
     },
         publickey: function() {
         showPGP(this);
