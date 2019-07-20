@@ -189,15 +189,6 @@ jQuery(document).ready(function($) {
 		"Configure kernel options.........................( OK )\n"+
 		"Setting clock: "+Date.now()+".....................( OK )\n"+
 		"SYSTEM BOOT COMPLETE.............................( OK )\n"+
-		"Encyclopaedia Brown meets...\n"+
-		+"\t\t\"        .---.\\n"+
-		\r\n\t\t\"        |[X]|\\n"+
-		\r\n\t\t\" _.==._.\\\"\\\"\\\"\\\"\\\".___n__\\n"+
-		\r\n\t\t\"d __ ___.-\'\'-. _____b\"+\r\n\t\t\"|[__]  \/.\\\"\\\"\\\"\\\".\\ _   |\\n"+
-		\r\n\t\t\"|LORD \/\/ \/\"\\\"\\ \\\\_)  |\"+\r\n\t\t\"|     \\\\ \\__\/ \/\/    |\\n"+
-		\r\n\t\t\"|      \\`.__.\'\/NIKON|\\n"+
-		\r\n\t\t\"\\=======`-..-\'======\/\\n"+
-		\r\n\t\t\" `-----------------\' \\n"+
 		"Quick Commands\n"+
 		"\techo         env          help\n"+
 		"\tid           ls           whoami]\n"+
