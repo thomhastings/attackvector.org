@@ -68,7 +68,7 @@ var App = {
         if(ga != undefined) ga('send', 'event', 'shutdown');
     },
     env: function() {
-        this.echo("[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://blog.attackvector.org\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]");
+        this.echo("[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nGITHUB=https://github.com/thomhastings\nTWITTER=@attackvector\n_=/usr/bin/env]");
         if(ga != undefined) ga('send', 'event', 'env');
     },
     cv: function() {
