@@ -12,14 +12,9 @@ var App = {
     },
 
         ls: function() {
-            this.echo('autoexec.cfg');
-            this.echo('CLASSIFIED.tar.gz');
             this.echo('thomhastings_Private.pgp');
-            this.echo('thomhastings.pem');
-            this.echo('HashCrackingReport.pdf');
             this.echo('ThomHastingsResume.pdf');
             this.echo('passwords.txt');
-            this.echo('Python_Encryptor.py');
             this.echo('theSecretToLife.txt');
             this.echo('lin012.gif')
         if(ga != undefined) ga('send', 'event', 'ls');
@@ -73,7 +68,7 @@ var App = {
     },
     cv: function() {
         this.echo("Loading my resume");
-        setTimeout(function(){ document.location.href = 'http://attackvector.org/ThomHastingsResume.pdf'; }, 1000);
+        setTimeout(function(){ document.location.href = 'https://www.linkedin.com/in/thomhastings/'; }, 1000);
         if(ga != undefined) ga('send', 'event', 'env');
     },
     manifesto: function(){
