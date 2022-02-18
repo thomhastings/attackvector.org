@@ -27,7 +27,7 @@ var App = {
        blog: function() {
         if(ga != undefined) ga('send', 'event', 'blog');
         this.echo("Loading the blog... Wait a sec ...")
-        setTimeout(function(){ document.location.href = 'https://medium.com/@tghastings/toorcon-ctf-damn-files-71ad5ba2c810'; }, 1000);
+        setTimeout(function(){ document.location.href = 'https://medium.com/@5tinger/toorcon-ctf-damn-files-71ad5ba2c810'; }, 1000);
     },
         publickey: function() {
         showPGP(this);
@@ -193,7 +193,7 @@ jQuery(document).ready(function($) {
 		"Quick Commands\n"+
 		"\techo         env          help\n"+
 		"\tid           ls           whoami]\n"+
-		"[[b;#44D544;]root]&#64;attackvector&#46;org:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=http://solo.fremen.guru/p/blog-page.html\nGITHUB=https://github.com/thomhastings\nTWITTER=@thomhastings\n_=/usr/bin/env]",
+		"[[b;#44D544;]root]&#64;attackvector&#46;org:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=https://medium.com/@5tinger\nGITHUB=https://github.com/thomhastings\nTWITTER=@attackvector\n_=/usr/bin/env]",
                 prompt: function(p){
             var path = '~'
             p(e + ":" + path + "# ");
