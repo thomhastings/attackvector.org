@@ -63,7 +63,7 @@ var App = {
         if(ga != undefined) ga('send', 'event', 'shutdown');
     },
     env: function() {
-        this.echo("[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nGITHUB=https://github.com/thomhastings\nTWITTER=@attackvector\n_=/usr/bin/env]");
+        this.echo("[[b;#44D544;]NAME=ThomHastings\nTITLE=SecurityEngineer\nBLOG=https://medium.com/@5tinger\nGITHUB=https://github.com/thomhastings\nTWITTER=@attackvector\n_=/usr/bin/env]");
         if(ga != undefined) ga('send', 'event', 'env');
     },
     cv: function() {
@@ -197,7 +197,7 @@ jQuery(document).ready(function($) {
 		"Quick Commands\n"+
 		"\techo         env          help\n"+
 		"\tid           ls           whoami]\n"+
-		"[[b;#44D544;]root]&#64;attackvector&#46;org:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SeniorSecurityEngineer\nBLOG=https://medium.com/@5tinger\nGITHUB=https://github.com/thomhastings\nTWITTER=@attackvector\n_=/usr/bin/env]",
+		"[[b;#44D544;]root]&#64;attackvector&#46;org:~# env\n[[b;#44D544;]NAME=ThomHastings\nTITLE=SecurityEngineer\nBLOG=https://medium.com/@5tinger\nGITHUB=https://github.com/thomhastings\nTWITTER=@attackvector\n_=/usr/bin/env]",
                 prompt: function(p){
             var path = '~'
             p(e + ":" + path + "# ");
